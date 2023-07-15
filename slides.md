@@ -21,3 +21,4 @@ Everythings seems ok!
 
 # Thanks!
 
+`reveal-md D:\Slides\slides\sildes.md --static D:\Slides\sildes`
