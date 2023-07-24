@@ -4,37 +4,43 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>reveal-md</title>
+    <title>Title</title>
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+    <link rel="stylesheet" href="./dist/theme/league.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/tomorrow-night-bright.css" />
 
 
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"># Part 1
+      <div class="slides"><section  data-markdown><script type="text/template">
 
-## Part1.1
+### Part 1 
 
-- Orderred List
-- Next Line
+---
 
-## Part 1.2
+ #### Part 1.1
 
-{code block here}
+- Orderred List 
+- Next Line 
 
-## Part 1.3
+1. Numberred List 
 
-Everythings seems ok!
-</script></section><section  data-markdown><script type="text/template">
-# Part 2
-</script></section><section  data-markdown><script type="text/template">
-# Thanks!
+2. Next Line 
 
-`reveal-md D:\Slides\slides\sildes.md --static D:\Slides\sildes`
+----
+
+#### Part 1.2 
+
+{code block here} 
+
+----
+
+#### Part 1.3 
+
+> Everthings seems ok!
 </script></section></div>
     </div>
 
@@ -79,7 +85,7 @@ Everythings seems ok!
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"width":1520,"height":950,"margin":0.04,"transition":"convex","slideNumber":true}, queryOptions);
     </script>
 
 
