@@ -24,7 +24,6 @@ revealOptions:
 - Next Line 
 
 1. Numberred List 
-
 2. Next Line 
 
 ----
