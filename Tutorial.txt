@@ -1,4 +1,5 @@
 reveal-md D:\Slides\slides.md --static D:\Slides\slides
+reveal-md D:\Slides\jiangxuejin.md --static D:\Slides\jiangxuejin
 
 https://note.isshikih.top/others/reveal-md2Slides/
 
